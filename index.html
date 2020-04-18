@@ -16,7 +16,7 @@
         <h1>Goody's profile page</h1>
     </div>
     <div class="container">   
-        <div class="container container-flex">
+        <div class="container-flex">
             <div class="profile-picture">
                 <img src="image/goody.jpeg" alt="goody">
             </div>
@@ -42,23 +42,22 @@
                 </ul>
             </div>
         </div>
-        <!-- <div class="parallax2"></div> -->
 
-            <fieldset>
-                <legend>Get in touch with me</legend>
-                <form action="">
-                <label for="name"></label> 
-                <input type="text" id="name" name="name" placeholder="Your name">
-                <label for="phone"></label>
-                <input type="tel" id="phone" name="phome" placeholder="Don't forget your area code">
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Your email">
-                <label for="comments">Special requests:</label>
-                <textarea id="comments" name="comments" placeholder="Tell me everything..."></textarea>
-                <label>
-                    <button><a href="">Done!</a></button>
-                </form>
-            </fieldset>
+        <fieldset>
+            <legend>Get in touch with me</legend>
+            <form action="">
+            <label for="name"></label> 
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phome" placeholder="Your phone number (optional)">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            <label for="comments">Message:</label>
+            <textarea id="comments" name="comments" placeholder="Tell me everything..." required></textarea>
+            <label>
+                <button><a href="">Done!</a></button>
+            </form>
+        </fieldset>
 
       
     </div>
