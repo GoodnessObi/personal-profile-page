@@ -20,7 +20,6 @@ body {
     padding-left: 1rem;
 }  
 
-
 .parallax-end {
     background-image: url("image/IMG_4395_3-1.png");
     height: 500px;
@@ -56,13 +55,13 @@ img {
 
 h1 {
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 5em;
     border-bottom: 1px solid #f06b18;
     margin: 0;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 2em;
     margin: 0;
 }
 
